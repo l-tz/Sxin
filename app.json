@@ -1,0 +1,30 @@
+{
+  "pages": [
+        "pages/person/person",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/change/change"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "YouAreHandsome",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/person/person",
+      "text": "主页",
+      "iconPath":"/image/5.png",
+      "seletedIconPath":"/image/5.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "个人中心",
+      "iconPath": "/image/6.png",
+      "seletedIconPath": "/image/6.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
